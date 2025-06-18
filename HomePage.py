@@ -12,7 +12,7 @@ pages = {
     "D2CORP": "Pages/D2CORPStreamlit.py",
     "SalesErrorLogVSNAV": "Pages/SalesErrorLogVSNAVStreamlit.py",
     "SalesReturnErrorLogVSNAV": "Pages/SalesReturnErrorLogVSNAVStreamlit.py",
-    "StockTakeAdj": "Pages/StockTakeAdjSteamlit.py",  # Note: Steamlit vs Streamlit
+    "StockTakeAdj": "Pages/StockTakeAdjStreamlit.py",  # Note: Steamlit vs Streamlit
     "TL_TU_RE": "Pages/TL_TU_REStreamlit.py",
     "TO_ILE_RES": "Pages/TO_ILE_RES_Streamlit.py",
     "TO_ILE_RES_V2": "Pages/TO_ILE_RES_Streamlit2.py"
