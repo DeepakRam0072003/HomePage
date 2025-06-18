@@ -13,7 +13,7 @@ pages = {
     "SalesReturnErrorLogVSNAV": "pages/SalesReturnErrorLogVSNAVStreamlit.py",
     "StockTakeAdj": "pages/StockTakeAdjStreamlit.py",
     "TL_TU_RE": "pages/TL_TU_REStreamlit.py",
-    "TO_ILE_RES": "pages/TO_ILE_RES_Steamlit.py",
+    "TO_ILE_RES": "pages/TO_ILE_RES_Streamlit.py",
     "TO_ILE_RES": "pages/TO_ILE_RES_Steamlit2.py"
     
 }
