@@ -4,9 +4,9 @@ st.title("Application Hub")
 st.write("Navigate to different modules:")
 
 pages = {
-    "C2C_C2D": "pages/C2C_C2D.py",
-    "CANAVORPPTSPTR": "pages/CANAVORPPTSPTR.py",
-    "CANAVTOPTSPTR": "pages/CANAVTOPTSPTR.py",
+    "C2C_C2D": "pages/C2C_C2DStreamlit.py",
+    "CANAVORPPTSPTR": "pages/CANAVORPPTSPTRStreamlit.py",
+    "CANAVTOPTSPTR": "pages/CANAVTOPTSPTRStreamlit.py",
     "ComboCANAVTO_CANAVORPS": "pages/ComboCANAVTO_CANAVORPStreamlit.py",
     "D2CORP": "pages/D2CORPStreamlit.py",
     "SalesErrorLogVSNAV": "pages/SalesErrorLogVSNAVStreamlit.py",
