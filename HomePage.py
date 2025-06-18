@@ -8,7 +8,7 @@ pages = {
     "C2C_C2D": "pages/C2C_C2DStreamlit.py",
     "CANAVORPPTSPTR": "pages/CANAVORPPTSPTRStreamlit.py",
     "CANAVTOPTSPTR": "pages/CANAVTOPTSPTRStreamlit.py",
-    "ComboCANAVTO_CANAVORP": "pages/ComboCANAVTO_CANAVORPStreamlit.py",  # Fixed key
+    "ComboCANAVTO_CANAVORP": "pages/ComboCANAVTO_CANAVORPstreamlit.py",  # Fixed key
     "D2CORP": "pages/D2CORPStreamlit.py",
     "SalesErrorLogVSNAV": "pages/SalesErrorLogVSNAVStreamlit.py",
     "SalesReturnErrorLogVSNAV": "pages/SalesReturnErrorLogVSNAVStreamlit.py",
