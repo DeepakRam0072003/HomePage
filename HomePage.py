@@ -4,32 +4,28 @@ import os
 st.title("Application Hub")
 st.write("Navigate to different modules:")
 
+# Debug current directory
+st.write("Current directory:", os.getcwd())
+st.write("Directory contents:", os.listdir())
+
+# Dictionary with direct file paths (no 'pages/' prefix)
 pages = {
-    "C2C_C2D": "pages/C2C_C2DStreamlit.py",
-    "CANAVORPPTSPTR": "pages/CANAVORPPTSPTRStreamlit.py",
-    "CANAVTOPTSPTR": "pages/CANAVTOPTSPTRStreamlit.py",
-    "ComboCANAVTO_CANAVORP": "pages/ComboCANAVTO_CANAVORPstreamlit.py",
-    "D2CORP": "pages/D2CORPStreamlit.py",
-    "SalesErrorLogVSNAV": "pages/SalesErrorLogVSNAVStreamlit.py",
-    "SalesReturnErrorLogVSNAV": "pages/SalesReturnErrorLogVSNAVStreamlit.py",
-    "StockTakeAdj": "pages/StockTakeAdjStreamlit.py",  # Note: Steamlit vs Streamlit
-    "TL_TU_RE": "pages/TL_TU_REStreamlit.py",
-    "TO_ILE_RES": "pages/TO_ILE_RES_Streamlit.py",
-    "TO_ILE_RES_V2": "pages/TO_ILE_RES_Streamlit2.py"
+    "C2C_C2D": "C2C_C2DStreamlit.py",
+    "CANAVORPPTSPTR": "CANAVORPPTSPTRStreamlit.py",
+    "CANAVTOPTSPTR": "CANAVTOPTSPTRStreamlit.py",
+    "ComboCANAVTO_CANAVORP": "ComboCANAVTO_CANAVORPstreamlit.py",
+    "D2CORP": "D2CORPStreamlit.py",
+    "SalesErrorLogVSNAV": "SalesErrorLogVSNAVStreamlit.py",
+    "SalesReturnErrorLogVSNAV": "SalesReturnErrorLogVSNAVStreamlit.py",
+    "StockTakeAdj": "StockTakeAdjStreamlit.py",
+    "TL_TU_RE": "TL_TU_REStreamlit.py",
+    "TO_ILE_RES": "TO_ILE_RES_Steamlit.py",
+    "TO_ILE_RES_V2": "TO_ILE_RES_Steamlit2.py"
 }
 
-# Debug current structure
-try:
-    st.write("Current directory:", os.getcwd())
-    st.write("Directory contents:", os.listdir())
-    st.write("Pages contents:", os.listdir("Pages"))  # Capital 'P' to match your structure
-except FileNotFoundError as e:
-    st.error(f"Directory error: {str(e)}")
-
-# Navigation buttons
-for page_name, page_path in pages.items():
+for page_name, page_file in pages.items():
     if st.button(page_name):
-        if os.path.exists(page_path):
-            st.switch_page(page_path)
+        if os.path.exists(page_file):
+            st.switch_page(page_file)
         else:
-            st.error(f"File not found: {page_path}")
+            st.error(f"File not found: {page_file}")
