@@ -4,7 +4,7 @@ Pages/CANAVTOPTSPTRStreamlit.py
 Pages/ComboCANAVTO_CANAVORPstreamlit.py
 Pages/D2CORPStreamlit.py
 Pages/SalesErrorLogVSNAVStreamlit.py
-Pages/SalesReturnErrorLogVSNAVSteamlit.py
+Pages/SalesReturnErrorLogVSNAVStreamlit.py
 Pages/StockTakeAdjSteamlit.py
 Pages/TL_TU_REStreamlit.py
 Pages/TO_ILE_RES_Streamlit.py
