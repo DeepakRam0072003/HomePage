@@ -5,17 +5,17 @@ st.title("Application Hub")
 st.write("Navigate to different modules:")
 
 pages = {
-    "C2C_C2D": "Pages/C2C_C2DStreamlit.py",
-    "CANAVORPPTSPTR": "Pages/CANAVORPPTSPTRStreamlit.py",
-    "CANAVTOPTSPTR": "Pages/CANAVTOPTSPTRStreamlit.py",
-    "ComboCANAVTO_CANAVORP": "Pages/ComboCANAVTO_CANAVORPstreamlit.py",
-    "D2CORP": "Pages/D2CORPStreamlit.py",
-    "SalesErrorLogVSNAV": "Pages/SalesErrorLogVSNAVStreamlit.py",
-    "SalesReturnErrorLogVSNAV": "Pages/SalesReturnErrorLogVSNAVStreamlit.py",
-    "StockTakeAdj": "Pages/StockTakeAdjStreamlit.py",  # Note: Steamlit vs Streamlit
-    "TL_TU_RE": "Pages/TL_TU_REStreamlit.py",
-    "TO_ILE_RES": "Pages/TO_ILE_RES_Streamlit.py",
-    "TO_ILE_RES_V2": "Pages/TO_ILE_RES_Streamlit2.py"
+    "C2C_C2D": "pages/C2C_C2DStreamlit.py",
+    "CANAVORPPTSPTR": "pages/CANAVORPPTSPTRStreamlit.py",
+    "CANAVTOPTSPTR": "pages/CANAVTOPTSPTRStreamlit.py",
+    "ComboCANAVTO_CANAVORP": "pages/ComboCANAVTO_CANAVORPstreamlit.py",
+    "D2CORP": "pages/D2CORPStreamlit.py",
+    "SalesErrorLogVSNAV": "pages/SalesErrorLogVSNAVStreamlit.py",
+    "SalesReturnErrorLogVSNAV": "pages/SalesReturnErrorLogVSNAVStreamlit.py",
+    "StockTakeAdj": "pages/StockTakeAdjStreamlit.py",  # Note: Steamlit vs Streamlit
+    "TL_TU_RE": "pages/TL_TU_REStreamlit.py",
+    "TO_ILE_RES": "pages/TO_ILE_RES_Streamlit.py",
+    "TO_ILE_RES_V2": "pages/TO_ILE_RES_Streamlit2.py"
 }
 
 # Debug current structure
