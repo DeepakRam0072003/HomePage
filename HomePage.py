@@ -5,16 +5,16 @@ st.write("Navigate to different modules:")
 
 pages = {
     "C2C_C2D": "pages/C2C_C2D.py",
-    "CANAVORP PTSPTR": "pages/CANAVORPPTSPTR.py",
-    "CANAVTO PTSPTR": "pages/CANAVTOPTSPTR.py",
-    "ComboCANAVTO CANAVORPstreamlit.py",
-    "D2CORPStreamlit.py",
-    "SalesErrorLogVSNAVStreamlit.py",
-    "SalesReturnErrorLogVSNAVStreamlit.py"
-    "StockTakeAdjStreamlit.py",
-    "TL TU REStreamlit.py",
-    "TO ILE RES Steamlit.py",
-    "TO ILE RES Steamlit2.py"
+    "CANAVORPPTSPTR": "pages/CANAVORPPTSPTR.py",
+    "CANAVTOPTSPTR": "pages/CANAVTOPTSPTR.py",
+    "ComboCANAVTO_CANAVORPS": "pages/ComboCANAVTO_CANAVORPStreamlit.py",
+    "D2CORP": "pages/D2CORPStreamlit.py",
+    "SalesErrorLogVSNAV": "pages/SalesErrorLogVSNAVStreamlit.py",
+    "SalesReturnErrorLogVSNAV": "pages/SalesReturnErrorLogVSNAVStreamlit.py"
+    "StockTakeAdj": "pages/StockTakeAdjStreamlit.py",
+    "TL_TU_RE": "pages/TL_TU_REStreamlit.py",
+    "TO_ILE_RES": "pages/TO_ILE_RES_Steamlit.py",
+    "TO_ILE_RES": "pages/TO_ILE_RES_Steamlit2.py"
     
 }
 
