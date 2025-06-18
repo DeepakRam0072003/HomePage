@@ -7,6 +7,14 @@ pages = {
     "C2C_C2D": "pages/C2C_C2D.py",
     "CANAVORP PTSPTR": "pages/CANAVORPPTSPTR.py",
     "CANAVTO PTSPTR": "pages/CANAVTOPTSPTR.py",
+    "ComboCANAVTO CANAVORPstreamlit.py",
+    "D2CORPStreamlit.py",
+    "SalesErrorLogVSNAVStreamlit.py",
+    "SalesReturnErrorLogVSNAVStreamlit.py"
+    "StockTakeAdjStreamlit.py",
+    "TL TU REStreamlit.py",
+    "TO ILE RES Steamlit.py",
+    "TO ILE RES Steamlit2.py"
     
 }
 
