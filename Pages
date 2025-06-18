@@ -1,11 +1,11 @@
-Pages/C2C C2DStreamlit.py
+Pages/C2C_C2DStreamlit.py
 Pages/CANAVORPPTSPTRStreamlit.py
 Pages/CANAVTOPTSPTRStreamlit.py
-Pages/ComboCANAVTO CANAVORPStreamlit.py
+Pages/ComboCANAVTO_CANAVORPStreamlit.py
 Pages/D2CORPStreamlit.py
 Pages/SalesErrorLogVSNAVStreamlit.py
 Pages/SalesReturnErrorLogVSNAVSteamlit.py
 Pages/StockTakeAdjSteamlit.py
-Pages/TL TU REStreamlit
-Pages/TO ILE RES Steamlit
-Pages/TO ILE RES Steamlit2
+Pages/TL_TU_REStreamlit.py
+Pages/TO_ILE_RES_Streamlit.py
+Pages/TO_ILE_RES_Streamlit2.py
